@@ -1,0 +1,109 @@
+HTML, body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+.navbar {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+}
+.backarrow {
+  /* float: left; */
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
+  align-items: center;
+}
+.backarrow div {
+  color: #FF9500;
+  font-family: SF Pro Display;
+}
+.hamburger {
+  /* float: right; */
+  width: auto;
+}
+.busstop h1{
+  font-family: SF Pro Display;
+  margin: 5px 0;
+}
+.busstop {
+  display: flex;
+  justify-content: space-between;
+}
+.images {
+  display: flex;
+  justify-content: flex-end;
+  height: 58px;
+}
+.images img {
+  width: 57px;
+  /* height: auto; */
+  border-radius: 15px;
+  padding-left: 5px;
+}
+.upcoming h2 {
+  font-family: SF Pro Display;
+  padding:0 10px;
+}
+.oos h2{
+  font-family: SF Pro Display;
+}
+
+/* .class h3 {
+  padding-right: 2px;
+} */
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+}
+.right {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 101px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+h4, h3 {
+  margin: 3px 0;
+  font-family: SF Pro Display;
+}
+
+h3{
+  font-weight: normal;
+}
+
+h4 {
+  font-weight: lighter;
+}
+.arriving {
+  color: #5AC8FA;
+}
+.busstop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 10px;
+}
+.busid, .images, .outofservice{
+  padding:0 10px;
+  font-family: SF Pro Display;
+}
+
+.left, .right{
+  padding:0 10px;
+}
+.over{
+  padding-left: 5px;
+}
