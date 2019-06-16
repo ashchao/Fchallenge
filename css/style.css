@@ -4,7 +4,7 @@ HTML, body {
   border: 0px;
 }
 
-.navbar {
+nav {
   width: auto;
   display: flex;
   justify-content: space-between;
